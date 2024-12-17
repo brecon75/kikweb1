@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="#search">Search</a>
+            <a href="#weather">Weather</a>
+            <a href="#about">About</a>
+            <a href="#footer">Footer</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="search">
+            <input type="text" id="city" placeholder="Enter a city name">
+            <button id="searchButton">Search</button>
+            <p id="error"></p>
+        </section>
+
+        <section id="weather">
+            <!-- weather details will be displayed here -->
+        </section>
+
+        <section id="about">
+            <h2>About</h2>
+            <p>This Weather Dashboard helps you get real-time weather updates for your city.</p>
+            <p>All data is sourced using the data provided by WeatherAPI.com</p>
+            <img src="https://www.freeiconspng.com/uploads/weather-icon-png-5.png" alt="Weather Icon">
+        </section>
+    </main>
+
+    <footer id="footer">
+        <p>Weather Dashboard</p>
+        <a href="https://github.com" target="_blank">GitHub</a>
+        <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+        <a href="https://www.instagram.com/">Instagram</a>
+        <button id="backToTop">Back to Top</button>
+        <a href="">Legal</a>
+        <a href="">Copyright</a>
+        <a href="">T&C</a>
+        <a href="https://www.weatherapi.com/">WeatherAPI</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
